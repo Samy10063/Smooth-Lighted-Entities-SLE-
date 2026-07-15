@@ -1,0 +1,7 @@
+{
+  "smooth-lighted-entities.options.title": "Smooth Lighted Entities Config",
+  "smooth-lighted-entities.options.header.default": "All Entities Settings",
+  "smooth-lighted-entities.options.gradient_range": "Gradient Range (Top Limit)",
+  "smooth-lighted-entities.options.solid_dark_height": "Solid Dark Height (Bottom Limit)",
+  "smooth-lighted-entities.options.base_darkness": "Base Darkness (Darkness Opacity)"
+}

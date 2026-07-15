@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.smoothlightning.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "CubeMixin",
+    "ModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

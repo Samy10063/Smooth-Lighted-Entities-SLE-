@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "smooth-lighted-entities",
+	"version": "${version}",
+	"name": "Smooth Lighted Entities",
+	"description": "This Mod makes Entities Have an Smooth Lightning, like Blocks's Smooth Lightning or Ambient Occlusion",
+	"authors": [
+		"Samy10063"
+	],
+	"contact": {
+	},
+	"license": "Creative Commons Attribution 4.0 International",
+	"icon": "assets/smooth-lighted-entities/icon.png",
+	"environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.smoothlightning.client.SmoothLightedEntitiesClient"
+    ],
+    "modmenu": [
+      "com.smoothlightning.client.config.ModMenuIntegration"
+    ]
+},
+	"mixins": [
+		{
+			"config": "smooth-lighted-entities.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
