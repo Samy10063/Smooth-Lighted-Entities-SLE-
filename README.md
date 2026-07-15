@@ -1,6 +1,9 @@
+# Smooth Lighted Entities
+
+## Setup
+
+For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+
 ## License
 
-This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).
-
-You are allowed to modify this mod and create addons or derivatives,
-as long as proper credit is given to the original author.
+This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
